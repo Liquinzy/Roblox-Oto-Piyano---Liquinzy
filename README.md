@@ -1,4 +1,4 @@
-# 🎹 Roblox Oto Piyano Çalar — Liquinzy
+<img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/75b8f2a2-0a48-403f-b390-e9516fbae3d5" /># 🎹 Roblox Oto Piyano Çalar — Liquinzy
 
 Roblox piyano oyunları için geliştirilmiş, modern arayüzlü, BPM ritim kontrollü ve hazır şarkı kütüphaneli otomatik piyano çalar.
 
@@ -25,3 +25,4 @@ Roblox piyano oyunları için geliştirilmiş, modern arayüzlü, BPM ritim kont
 - **Discord:** `Liquinzy`
 - **Discord Sunucu:** `https://discord.gg/uqejFEUsF`
 - **Instagram & TikTok:** `Ahmet.ll99`
+<img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/5ff41be4-c705-4120-bc74-68b60692b632" />
