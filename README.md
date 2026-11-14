@@ -25,4 +25,3 @@ Roblox piyano oyunları için geliştirilmiş, modern arayüzlü, BPM ritim kont
 - **Discord:** `Liquinzy`
 - **Discord Sunucu:** `https://discord.gg/uqejFEUsF`
 - **Instagram & TikTok:** `Ahmet.ll99`
-<img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/5ff41be4-c705-4120-bc74-68b60692b632" />
