@@ -8,7 +8,7 @@ Roblox piyano oyunları için geliştirilmiş, modern arayüzlü, BPM ritim kont
 
 👉 **[En Güncel Sürümü İndir (.exe)](https://github.com/Liquinzy/Roblox-Oto-Piyano---Liquinzy/releases/latest)**
 
-> **Kurulum Notu:** İndirdiğiniz `.exe` dosyasına çift tıklamanız yeterlidir. Bireysel bir açık kaynak projesi olduğu için ücretli dijital imza sertifikası bulunmamaktadır.
+> **Kurulum Notu:** İndirdiğiniz `.exe` dosyasına çift tıklamanız yeterlidir. Proje sadece derlenmiş `.exe` formatında sunulduğu için ücretli dijital imza sertifikası bulunmamaktadır.
 
 ---
 
@@ -16,15 +16,15 @@ Roblox piyano oyunları için geliştirilmiş, modern arayüzlü, BPM ritim kont
 
 Uygulamayı indirdiğinizde Windows veya kullandığınız antivirüs programı **"Bilinmeyen yayımcı"** veya **"Potansiyel olarak istenmeyen yazılım"** uyarısı verebilir. Bu durumun tamamen **yanıltıcı pozitif (false-positive)** olmasının sebepleri şunlardır:
 
-1. **Klavye Otomasyonu (pynput):** Program, Roblox tuşlarına otomatik basabilmek için arka planda klavye kancaları (`pynput` kütüphanesi) kullanır. Kötü amaçlı yazılımlar (keylogger'lar) da benzer teknikler kullandığı için güvenlik yazılımları tedbir amaçlı bu uyarıyı verir.
-2. **Dijital İmza Eksikliği:** Yazılım ticari bir şirket tarafından imzalanmadığı için Windows SmartScreen ilk çalıştırmada bilgisayarınızı korumak adına engellemek isteyebilir.
+1. **Klavye Otomasyonu:** Program, Roblox tuşlarına otomatik basabilmek için arka planda klavye kancaları ve otomasyon komutları kullanır. Kötü amaçlı yazılımlar da benzer teknikler kullandığı için güvenlik yazılımları tedbir amaçlı bu uyarıyı verir.
+2. **Dijital İmza Eksikliği:** Yazılım ticari bir şirket veya resmi bir sertifika ile imzalanmadığı için Windows SmartScreen ilk çalıştırmada bilgisayarınızı korumak adına engelleyebilir.
 
 #### 🛠️ Uyarı Alırsanız Ne Yapmalısınız?
 * **Windows SmartScreen Uyarısı İçin ("Windows bilgisayarınızı korudu"):** 
   Çıkan mavi pencerede **"Ek bilgi"** yazısına tıklayın, ardından alt kısımda beliren **"Yine de çalıştır"** butonuna basarak programı güvenle açabilirsiniz.
 * **Antivirüs Engelini Aşmak İçin:** 
-  Eğer antivirüs programınız dosyayı doğrudan sildiyse veya engellediyse, ilgili dosyayı "İstisnalar / Dışlananlar" listesine ekleyerek sorunsuz çalıştırabilirsiniz.
-  *Kodlar tamamen açıktır; dilerseniz kaynak kodunu inceleyebilir veya doğrudan `main.py` üzerinden kendiniz derleyebilirsiniz.*
+  Eğer antivirüs programınız dosyayı engellediyse, ilgili `.exe` dosyasını antivirüsünüzün "İstisnalar / Dışlananlar" listesine ekleyerek sorunsuz çalıştırabilirsiniz. 
+  *(Güvenliğiniz için dilerseniz dosyayı indirdikten sonra VirusTotal üzerinden taratıp temiz olduğunu görebilirsiniz.)*
 
 ---
 
