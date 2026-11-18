@@ -4,15 +4,27 @@ Roblox piyano oyunları için geliştirilmiş, modern arayüzlü, BPM ritim kont
 
 ---
 
-
-
----
-
 ### 📥 İndirme (Son Sürüm)
 
 👉 **[En Güncel Sürümü İndir (.exe)](https://github.com/Liquinzy/Roblox-Oto-Piyano---Liquinzy/releases/latest)**
 
-> **Kurulum Notu:** İndirdiğiniz `.exe` dosyasına çift tıklamanız yeterlidir. Bireysel proje olduğu için dijital imza bulunmamaktadır; Windows SmartScreen uyarısı çıkarsa **"Ek bilgi > Yine de çalıştır"** seçeneğine tıklayarak açabilirsiniz.
+> **Kurulum Notu:** İndirdiğiniz `.exe` dosyasına çift tıklamanız yeterlidir. Bireysel bir açık kaynak projesi olduğu için ücretli dijital imza sertifikası bulunmamaktadır.
+
+---
+
+### 🛡️ Antivirüs ve Windows SmartScreen Uyarıları Hakkında Bilgilendirme
+
+Uygulamayı indirdiğinizde Windows veya kullandığınız antivirüs programı **"Bilinmeyen yayımcı"** veya **"Potansiyel olarak istenmeyen yazılım"** uyarısı verebilir. Bu durumun tamamen **yanıltıcı pozitif (false-positive)** olmasının sebepleri şunlardır:
+
+1. **Klavye Otomasyonu (pynput):** Program, Roblox tuşlarına otomatik basabilmek için arka planda klavye kancaları (`pynput` kütüphanesi) kullanır. Kötü amaçlı yazılımlar (keylogger'lar) da benzer teknikler kullandığı için güvenlik yazılımları tedbir amaçlı bu uyarıyı verir.
+2. **Dijital İmza Eksikliği:** Yazılım ticari bir şirket tarafından imzalanmadığı için Windows SmartScreen ilk çalıştırmada bilgisayarınızı korumak adına engellemek isteyebilir.
+
+#### 🛠️ Uyarı Alırsanız Ne Yapmalısınız?
+* **Windows SmartScreen Uyarısı İçin ("Windows bilgisayarınızı korudu"):** 
+  Çıkan mavi pencerede **"Ek bilgi"** yazısına tıklayın, ardından alt kısımda beliren **"Yine de çalıştır"** butonuna basarak programı güvenle açabilirsiniz.
+* **Antivirüs Engelini Aşmak İçin:** 
+  Eğer antivirüs programınız dosyayı doğrudan sildiyse veya engellediyse, ilgili dosyayı "İstisnalar / Dışlananlar" listesine ekleyerek sorunsuz çalıştırabilirsiniz.
+  *Kodlar tamamen açıktır; dilerseniz kaynak kodunu inceleyebilir veya doğrudan `main.py` üzerinden kendiniz derleyebilirsiniz.*
 
 ---
 
