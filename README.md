@@ -16,15 +16,16 @@ Roblox piyano oyunları için geliştirilmiş, modern arayüzlü, BPM ritim kont
 
 Uygulamayı indirdiğinizde Windows veya kullandığınız antivirüs programı **"Bilinmeyen yayımcı"** veya **"Potansiyel olarak istenmeyen yazılım"** uyarısı verebilir. Bu durumun tamamen **yanıltıcı pozitif (false-positive)** olmasının sebepleri şunlardır:
 
-1. **Klavye Otomasyonu:** Program, Roblox tuşlarına otomatik basabilmek için arka planda klavye kancaları ve otomasyon komutları kullanır. Kötü amaçlı yazılımlar da benzer teknikler kullandığı için güvenlik yazılımları tedbir amaçlı bu uyarıyı verir.
+1. **Klavye Otomasyonu:** Program, Roblox tuşlarına otomatik basabilmek için arka planda klavye kancaları ve otomasyon komutları (`pynput`) kullanır. Kötü amaçlı yazılımlar da benzer teknikler kullandığı için güvenlik yazılımları tedbir amaçlı bu uyarıyı verir.
 2. **Dijital İmza Eksikliği:** Yazılım ticari bir şirket veya resmi bir sertifika ile imzalanmadığı için Windows SmartScreen ilk çalıştırmada bilgisayarınızı korumak adına engelleyebilir.
 
+> ⚠️ **VirusTotal Sonuçları Hakkında:** Dosyayı VirusTotal'de tarattığınızda bazı motorlar (Microsoft, CrowdStrike vb.) **Trojan / Malicious** uyarısı verebilir. Tamamen kodun yapı gereği (PyInstaller sarmalayıcısı ve klavye otomasyonu) tetiklenen **yanıltıcı pozitif (false-positive)** alarmlardır. Kodlar tamamen güvenlidir, şüphe edenler indiremeyebilir veya kullanmayabilir.
+
 #### 🛠️ Uyarı Alırsanız Ne Yapmalısınız?
-* **Windows SmartScreen Uyarısı İçin ("Windows bilgisayarınızı korudu"):** 
+- **Windows SmartScreen Uyarısı İçin ("Windows bilgisayarınızı korudu"):** 
   Çıkan mavi pencerede **"Ek bilgi"** yazısına tıklayın, ardından alt kısımda beliren **"Yine de çalıştır"** butonuna basarak programı güvenle açabilirsiniz.
-* **Antivirüs Engelini Aşmak İçin:** 
-  Eğer antivirüs programınız dosyayı engellediyse, ilgili `.exe` dosyasını antivirüsünüzün "İstisnalar / Dışlananlar" listesine ekleyerek sorunsuz çalıştırabilirsiniz. 
-  *(Güvenliğiniz için dilerseniz dosyayı indirdikten sonra VirusTotal üzerinden taratıp temiz olduğunu görebilirsiniz.)*
+- **Antivirüs Engelini Aşmak İçin:** 
+  Eğer antivirüs programınız dosyayı engellediyse, ilgili `.exe` dosyasını antivirüsünüzün "İstisnalar / Dışlananlar" listesine ekleyerek sorunsuz çalıştırabilirsiniz.
 
 ---
 
